@@ -48,6 +48,14 @@ Arrays.toString(intArr)); Arrays.sort(intArr);Arrays.sort(arr, new Sortbyroll())
 
 
 
+String:https://www.w3schools.com/java/java_ref_string.asp
+
+
+str.length();str.toUpperCase();str.toLowerCase();str.indexOf("s");str.toCharArray();
+
+
+
+
 
 
 

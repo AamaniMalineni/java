@@ -1,6 +1,8 @@
 # java
 java cheatsheet
 
+https://www.techinterviewhandbook.org/grind75?weeks=8
+
 HashMap-we can store key, values
 
 Map<Integer,Integer>map=new Hashmap<>(); //Integer/Double/String/Character/Boolean
@@ -49,9 +51,23 @@ Arrays.toString(intArr)); Arrays.sort(intArr);Arrays.sort(arr, new Sortbyroll())
 
 
 String:https://www.w3schools.com/java/java_ref_string.asp
-
-
 str.length();str.toUpperCase();str.toLowerCase();str.indexOf("s");str.toCharArray();
+
+https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html
+
+https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html
+
+Example for StringBuilder
+StringBuilder sb=new StringBuilder();
+        for(char c:s.toCharArray()){
+            if(Character.isLetterOrDigit(c))
+               sb.append(Character.toLowerCase(c));
+
+        }
+        if(sb.toString().equals(sb.reverse().toString())){
+            return true;
+        }
+        return false;
 
 
 

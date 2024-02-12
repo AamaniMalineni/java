@@ -70,6 +70,16 @@ StringBuilder sb=new StringBuilder();
         return false;
 
 
+ converting string to array, array to string
+ 
+        char[] a=s.toCharArray();
+        char[] b=t.toCharArray();
+        Arrays.sort(a);
+        Arrays.sort(b);
+        String s1=new String(a);
+        String s2=new String(b);
+
+
 
 
 
